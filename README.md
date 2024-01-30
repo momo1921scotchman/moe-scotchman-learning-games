@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zewátetcal
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+I would like to make a site to learn St̓át̓imcets. I would like to have like to 2 boxes and on one box it shows an image of someone doing something(like putting on a coat) and in the other box give options of what they are doing. Like a little flash card quiz thing.
 
-### `npm start`
+### Problem
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There is an app that uses my language but it is more for searching word/phrases. I would like something that people can play with that uses more daily phrases to practice. My language does not have many fluent speakers left. Inside my community we don't have any and we are learning other communities dialects. So I would like to contribute to the revitalization of my language.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### User Profile
 
-### `npm test`
+I would like it used by my community. I know there are mostly elders and children who learn. So I plan to keep it simple and easy to navigate. I think most of the elders have a lot of struggle trying to use the language site we have and they usually like things that are repetative.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Features
 
-### `npm run build`
+Learning will see two containers one with an image and another with St̓át̓imcets with about 3-5 words/phrases. They then will be able to choose a written option to that matched the picture. I will also have a video feature for learners to practice the sounds.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Implementation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+React
+JSX
+Express
 
-### `npm run eject`
+### APIs
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+List any external sources of data that will be used in your app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Sitemap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+List the pages of your app with brief descriptions. You can show this visually, or write it out.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Mockups
 
-## Learn More
+![cards of game one side is a fish and the other is St̓át̓imcets](documents/images/initial-cards.jpg)
+![the highlighted St̓át̓imcets that matched image](documents/images/correct-card.jpg)
+![highlighted St̓át̓imcets that the user chose that does not match image](documents/images/incorrect-card.jpg)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Data
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Describe your data and the relationships between them. You can show this visually using diagrams, or write it out.
 
-### Code Splitting
+### Endpoints
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+GET /activies
+get /language-videos
 
-### Analyzing the Bundle Size
+### Auth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+No authentication will be necessary
 
-### Making a Progressive Web App
+## Roadmap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Set up React with routes and boilerplate pages
+have wo main pages one with learning language sounds and the other page for a match picture to proper St̓át̓imcets words/phrases
 
-### Advanced Configuration
+Set up an Express project with routing, providing responses with basic server working
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Set up migrations for database design and implement seeds with sample image-word matching and language learning data
 
-### Deployment
+Collect images and corresponding words/phrases for 3-5 options and get language learning videos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Make image to word/phrase page for users to match images with the correct word/phrase.
+Store the selected options in sessionStorage.
 
-### `npm run build` fails to minify
+Implement the Language Learning page with video playback for learning language sounds.
+a GET endpoint for retrieving video data
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+fix any issues or bugs
+
+testing of the application
+
+## Nice-to-haves
+
+another page of cards showing basic conversations
+![header structure for dream website](documents/images/endgoal.jpg)
