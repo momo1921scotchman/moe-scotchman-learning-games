@@ -77,4 +77,4 @@ testing of the application
 ## Nice-to-haves
 
 another page of cards showing basic conversations
-![header structure for dream website](documents/images/endgoal.jpg)
+![header structure for dream website](./documents/images/endgoal.jpg)
