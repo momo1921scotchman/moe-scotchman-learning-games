@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
   background-position: center;
 
+  @include tablet {
+    height: 25vh;
+  }
+
   &__title {
     padding: 1.125rem;
     display: flex;
