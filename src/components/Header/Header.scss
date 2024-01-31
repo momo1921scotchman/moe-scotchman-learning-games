@@ -2,14 +2,11 @@
 
 .header {
   height: 40vw;
+  max-height: 16rem;
   background-image: url("../../assets/images/duffy-lake.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  @include tablet {
-    height: 25vh;
-  }
 
   &__title {
     padding: 1.125rem;
