@@ -1,0 +1,16 @@
+@use "../src/styles/partials/typography" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+  color: unset;
+}

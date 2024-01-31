@@ -1,0 +1,51 @@
+@use "../../styles/partials/mixins" as *;
+
+.header {
+  height: 40vw;
+  background-image: url("../../assets/images/duffy-lake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__title {
+    padding: 1.125rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+
+    @include tablet {
+      font-size: 4rem;
+      padding: 1rem;
+    }
+  }
+}
+.navbar {
+  padding: 0 1rem;
+  background-color: #000;
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+
+    @include tablet {
+      font-size: 1.25rem;
+    }
+  }
+
+  &__item {
+    color: white;
+    padding: 1rem 5%;
+    font-weight: bold;
+
+    @include tablet {
+      padding: 1rem 10%;
+    }
+
+    &:hover {
+      background-color: pink;
+      color: black;
+    }
+  }
+}
