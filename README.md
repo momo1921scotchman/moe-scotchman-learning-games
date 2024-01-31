@@ -36,7 +36,7 @@ List the pages of your app with brief descriptions. You can show this visually, 
 
 ### Mockups
 
-![cards of game one side is a fish and the other is St̓át̓imcets](documents/images/initial-cards.jpg)
+![cards of game one side is a fish and the other is St̓át̓imcets](documents/images/initial-card.jpg)
 ![the highlighted St̓át̓imcets that matched image](documents/images/correct-card.jpg)
 ![highlighted St̓át̓imcets that the user chose that does not match image](documents/images/incorrect-card.jpg)
 
