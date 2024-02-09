@@ -1,0 +1,13 @@
+@use "../../styles/partials/mixins" as *;
+.main {
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+    &__video-player {
+      width: 65%;
+    }
+    &__video-nav {
+      width: 30%;
+    }
+  }
+}

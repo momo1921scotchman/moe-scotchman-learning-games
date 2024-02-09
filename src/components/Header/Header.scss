@@ -39,14 +39,18 @@
     color: white;
     padding: 1rem 5%;
     font-weight: bold;
+  }
 
-    @include tablet {
-      padding: 1rem 10%;
+  &__link {
+    color: white;
+    &:active {
+      color: white;
     }
 
     &:hover {
       background-color: pink;
       color: black;
+      padding: 1rem;
     }
   }
 }

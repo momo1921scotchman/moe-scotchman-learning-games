@@ -1,0 +1,11 @@
+.video {
+  margin: auto;
+
+  &__title {
+    padding: 1rem;
+  }
+  &__player {
+    width: 100%;
+    padding: 1rem;
+  }
+}

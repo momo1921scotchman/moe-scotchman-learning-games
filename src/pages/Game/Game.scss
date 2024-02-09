@@ -1,0 +1,16 @@
+.game {
+  display: flex;
+
+  &__image {
+    max-width: 10rem;
+  }
+
+  &__question {
+    border: 1px solid black;
+    width: 12rem;
+  }
+  &__answers {
+    border: 1px solid red;
+    width: 10rem;
+  }
+}
