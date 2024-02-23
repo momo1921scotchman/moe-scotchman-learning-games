@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          {/* <Route path="/" element={<HomePage />}>
+          <Route path="/" element={<HomePage />}>
             <Route path="/:videoId" element={<HomePage />}></Route>
-          </Route> */}
+          </Route>
           <Route path="/game" element={<Game />}></Route>
           {/* <Route path="/about" element={<AboutMe />}></Route> */}
         </Routes>

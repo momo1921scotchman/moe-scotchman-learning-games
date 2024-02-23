@@ -5,9 +5,6 @@ import "./Game.scss";
 
 const Game = () => {
   const [words, setWords] = useState(null);
-  const [answers, setAnswers] = useState([]);
-  const [showAnswer, setShowAnswer] = useState(false);
-  const [currentQuestion, setCurrentQuestion] = useState(0);
 
   const getWords = async () => {
     try {
@@ -31,7 +28,17 @@ const Game = () => {
   const filterWords = words.filter((word) => {
     return selectWord.id !== word.id;
   });
-  console.log(filterWords);
+
+  const randomsArr = [];
+  const newArr = [];
+  while (randomsArr.length < 4) {
+    const randIndex = Math.floor(Math.random() * filterWords.length);
+    const randWord = filterWords[randIndex];
+    if (!randomsArr.includes(randIndex)) {
+      randomsArr.push(randIndex);
+      newArr.push(randWord);
+    }
+  }
 
   return (
     <main>
@@ -44,7 +51,16 @@ const Game = () => {
         <p>{selectWord.english}</p>
       </div>
       <div className="game__answers">
-        <ul></ul>
+        <ul>
+          <li>
+            <p className="game__statimc">{selectWord.statimc}</p>
+          </li>
+          {newArr.map((word, index) => (
+            <li key={index}>
+              <p className="game__statimc">{word.statimc}</p>
+            </li>
+          ))}
+        </ul>
       </div>
     </main>
   );

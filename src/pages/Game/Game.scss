@@ -8,9 +8,17 @@
   &__question {
     border: 1px solid black;
     width: 12rem;
+    padding: 2rem;
+    margin: 2rem;
   }
   &__answers {
     border: 1px solid red;
     width: 10rem;
+    padding: 2rem;
+    margin: 2rem;
+  }
+
+  &__statimc {
+    color: black;
   }
 }
